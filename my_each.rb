@@ -5,4 +5,7 @@ def my_each(array) # put argument(s) here
     while i < array.length
       yield(array)
     end
+  else
+    puts "Hey! No block was given!"
+  end
 end
